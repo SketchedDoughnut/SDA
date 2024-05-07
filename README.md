@@ -2,7 +2,7 @@
 
 SGA, Sketched Game Archives, is a project I have been working on which includes a game collection. As development continues, I have more plans to try and expand what I do with this. <br>
 For inquiries, please email: **SGA@gmail.com** <br>
-Sources / Credits are in: **(install_location)/game_name/everything/credits/
+Sources / Credits are in: **(install_location)/game_name/everything/credits/**
 
 # How to set up 
 
