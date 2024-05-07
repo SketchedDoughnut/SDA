@@ -4,7 +4,7 @@ SDA, the Sketched Doughnut Distraction Act, is a project I have been working on 
 For inquiries, please email: **(TBD)** <br>
 Sources / Credits are in: **(install_location)/game_name/everything/credits/**
 
-# How to set up 
+# How to install
 
 To install, go to releases and install the latest release. Extract the files, then run "fiesta-modern.exe". It will run you through the steps. 
 
