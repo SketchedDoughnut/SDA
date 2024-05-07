@@ -10,8 +10,8 @@ To install, go to releases and install the latest release. Extract the files, th
 
 # FAQ
 
-**What do I do if I notice a bug?**
+**What do I do if I notice a bug?** <br>
 You can come to this repository, go to Issues, and create a new one! I will try to get back to you when I can.
 
-**Can I help work with you on this?**
+**Can I help work with you on this?** <br>
 Currently, this has been a project I have kept to myself. In the future, I might include others in development. However, if you want to suggest ideas, feel free to! A form will be displayed below once I stop procrastinating making it.
