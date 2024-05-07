@@ -10,7 +10,7 @@ To install, go to releases and install the latest release. Extract the files, th
 
 # FAQ
 
-**What do I do if I notice a bug?** <br>
+**What do I do if I notice a bug, or some sort of issue?** <br>
 You can come to this repository, go to Issues, and create a new one! I will try to get back to you when I can.
 
 **Can I help work with you on this?** <br>
