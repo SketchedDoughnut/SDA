@@ -1,7 +1,7 @@
-# Welcome to SGA!
+# Welcome to SDA!
 
-SGA, Sketched Game Archives, is a project I have been working on which includes a game collection. As development continues, I have more plans to try and expand what I do with this. <br>
-For inquiries, please email: **SketchedGameArchives@gmail.com** <br>
+SGA, Sketched Dougnut Archives, is a project I have been working on which includes a game collection. As development continues, I have more plans to try and expand what I do with this. <br>
+For inquiries, please email: **SketchedDoughnutArchives@gmail.com** <br>
 Sources / Credits are in: **(install_location)/game_name/everything/credits/**
 
 # How to set up 
