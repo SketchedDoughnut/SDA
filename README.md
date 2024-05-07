@@ -1,6 +1,6 @@
 # Welcome to SDA!
 
-SGA, Sketched Games Act, is a project I have been working on which includes a game collection. As development continues, I have more plans to try and expand what I do with this. <br>
+SGA, Sketched Doughnut Game Act, is a project I have been working on which includes a game collection. As development continues, I have more plans to try and expand what I do with this. <br>
 For inquiries, please email: **(TBD)** <br>
 Sources / Credits are in: **(install_location)/game_name/everything/credits/**
 
