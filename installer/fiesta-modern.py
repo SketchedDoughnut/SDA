@@ -698,7 +698,7 @@ try:
 
                     copy_location = f'{(self.install_path)}/everything'
                     print(f'Update: Copying files to {copy_location}')
-                    copy_source = f"{ext_download_path}/SketchedDoughnut-development-{self.release_version}/everything/"
+                    copy_source = f"{ext_download_path}/SketchedDoughnut-SDA-src-{self.release_version}/everything/"
                     c.copy(copy_source, copy_location)
 
                     print('Update: Cleaning up tmp...')
