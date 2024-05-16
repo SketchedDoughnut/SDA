@@ -6,7 +6,7 @@
 Initial upload of the installer for people to use, transferring from the old repository and getting rid of dependency on it.
 - commit label: None
 
-# 5/15/24 - v1.0.0
+# 5/15/24
 **v1.0.0**
 
 Added better status messages to the installer, directions for what to run if you chose not to have a shortcut, and some minor behind-the-scenes changes.
