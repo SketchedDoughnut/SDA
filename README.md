@@ -18,7 +18,7 @@ Please note that the installer currently also doubles as the deletion agent, so 
 
 **What do I do if I notice a bug, or some sort of issue?** <br>
 You can come to this repository, go to 
-[Issues](https://github.com/SketchedDoughnut/SDA/issues)
+[issues](https://github.com/SketchedDoughnut/SDA/issues)
 , and create a new one! I will try to get back to you when I can.
 
 **Can I help work with you on this?** <br>
