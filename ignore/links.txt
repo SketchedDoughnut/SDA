@@ -1,0 +1,5 @@
+basic html stuff
+- https://www.w3schools.com/html/html_forms.asp
+
+JS
+- https://www.infoworld.com/article/2077176/using-javascript-and-forms.html
