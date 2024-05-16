@@ -15,3 +15,5 @@ You can come to this repository, go to Issues, and create a new one! I will try 
 
 **Can I help work with you on this?** <br>
 Currently, this has been a project I have kept to myself. In the future, I might include others in development. However, if you want to suggest ideas, feel free to! A form will be displayed below once I stop procrastinating making it.
+
+- **[View changelog](./changelog.md)**
