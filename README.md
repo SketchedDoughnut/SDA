@@ -6,7 +6,7 @@ Sources / Credits are in: **(install_location)/game_name/everything/credits/**
 
 # How to install
 
-**NOTE**: This code has been optimised and built for Windows 10, and python 3.11. There is currently no support for other operating systems. <br>
+**NOTE**: This code has been optimised and built for Windows 10, and python 3.11. There is currently no support for other operating systems.
 Additionally, the installer in this repository and the source code repository does not have a code-signing certificate. Install at your own will.
 
 To install, go to 
