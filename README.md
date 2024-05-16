@@ -7,6 +7,7 @@ Sources / Credits are in: **(install_location)/game_name/everything/credits/**
 # How to install
 
 To install, go to releases and install the latest release. Extract the files, then run "fiesta-modern.exe". It will run you through the steps to install, and then you're done!
+Please note that the installer currently also doubles as the deletion agent, so if you want it for that purpose, then please do not delete it.
 
 # FAQ
 
