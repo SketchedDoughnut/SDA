@@ -11,7 +11,7 @@ Additionally, the installer in this repository and the source code repository do
 
 To install, go to 
 [releases](https://github.com/SketchedDoughnut/SDA/releases/latest) 
-and install the latest release, "source_code.zip". Extract the files, then run "fiesta-modern.exe". It will run you through the steps to install, and then you're done!
+and install the latest release, "source code (zip)". Extract the files, then run "fiesta-modern.exe". It will run you through the steps to install, and then you're done!
 Please note that the installer currently also doubles as the deletion agent, so if you want it for that purpose, then please do not delete it.
 
 # FAQ
