@@ -334,9 +334,11 @@ try:
                 """)
                 path_loop = True
                 while path_loop:
-                    print('---------------')
-                    print(f"""Input file directory for install below (or type "delete" to delete).'
-    Note: Must be absolute path. Ex: C:\\folder\\install_location.""") # Enter nothing for default installation path (in Program Files).
+                    print(f"""---------------
+                Input file directory for install below (or type "delete" to delete).'
+    Note: Must be absolute path from the root. For example, the absolute path of this file is:
+    - {os.getcwd()}
+    IMPORTANT: PLEASE DO NOT USE A FILE PATH WITH ANY SPACES IN IT.""")
                     self.install_path = input('--> ')
 
                     # checking for uninstall, doing uninstall if so
@@ -454,8 +456,8 @@ try:
         
             else:
                 print('---------------')
-                print('---------------')
-                print('Improper path. Please try again.')
+                print('That path does not exist. Please try again.')
+                print('-->', path)
                 return [path, True]
             
 
@@ -698,11 +700,30 @@ try:
                     self.release_version = release_version[0]
 
                     copy_location = f'{(self.install_path)}/everything'
-                    print(f'Update: Copying files to {copy_location}')
-                    #copy_source = f"{ext_download_path}/SketchedDoughnut-development-{self.release_version}/everything/"
+                    back_extract = f'{self.install_path}'
+                    other_paths = [ 
+                        # all MD
+                        [f"{ext_download_path}/SketchedDoughnut-SDA-src-{self.release_version}/changelog.md", 'changelog.md'],
+                        [f"{ext_download_path}/SketchedDoughnut-SDA-src-{self.release_version}/README.md", 'README.md'],
+                        # all extensionless,
+                        [f"{ext_download_path}/SketchedDoughnut-SDA-src-{self.release_version}/.gitattributes", '.gitattributes'],
+                        [f"{ext_download_path}/SketchedDoughnut-SDA-src-{self.release_version}/LICENSE", 'LICENSE'],
+                        [f"{ext_download_path}/SketchedDoughnut-SDA-src-{self.release_version}/Pipfile", 'Pipfile'],
+                        # all other types (.lock, other .txt),
+                        [f"{ext_download_path}/SketchedDoughnut-SDA-src-{self.release_version}/requirements.txt", 'requirements.txt'],
+                        [f"{ext_download_path}/SketchedDoughnut-SDA-src-{self.release_version}/Pipfile.lock", 'Pipfile.lock']
+                    ]
+
+                    print(f'Update: Copying files to {copy_location}...')
                     copy_source = f"{ext_download_path}/SketchedDoughnut-SDA-src-{self.release_version}/everything/"
                     c.copy(copy_source, copy_location)
 
+                    # new experimental copying system for extra files
+                    print(f'Update: Copying IMPORTANT files to {back_extract}...')
+                    for file in other_paths:
+                        print('- copying:', file[1])
+                        c.copy(file[0], f'{back_extract}/{file[1]}', mode='file')
+                    
                     print('Update: Cleaning up tmp...')
                     try:
                         shutil.rmtree(f'{self.install_path}/tmp')
