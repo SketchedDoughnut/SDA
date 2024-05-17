@@ -11,3 +11,9 @@ Initial upload of the installer for people to use, transferring from the old rep
 
 Added better status messages to the installer, directions for what to run if you chose not to have a shortcut, and some minor behind-the-scenes changes.
   - commit label: [7cc5bd9](https://github.com/SketchedDoughnut/SDA/commit/7aecbfd1db0e1fa195eecbe62ba6dc5f6654743c)
+
+# 5/16/24
+**v1.0.1**
+
+Added even more, easily readable wording to the installer, as well as improving examples used.
+  - commit label: [5fdcdf4](https://github.com/SketchedDoughnut/SDA/commit/5fdcdf4ea6b261149753f5d2c802859b78d932a2)
