@@ -20,7 +20,7 @@ Please note that the installer currently also doubles as the deletion agent, so 
 <!-- You can come to this repository, go to 
 [issues](https://github.com/SketchedDoughnut/SDA/issues)
 , and create a new one! I will try to get back to you when I can. -->
-You can go to the SDA-src repository and [submit an issue!](https://github.com/SketchedDoughnut/SDA-src/issues)
+You can go to the SDA-src repository and [submit an issue!](https://github.com/SketchedDoughnut/SDA-src/issues) I will try to get back to you regarding your issue when I can.
 
 **Can I help work with you on this?** <br>
 Currently, this has been a project I have kept to myself. In the future, I might include others in development. However, if you want to suggest ideas, feel free to! A form will be displayed below once I stop procrastinating making it.
