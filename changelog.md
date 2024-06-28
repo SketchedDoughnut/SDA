@@ -17,3 +17,9 @@ Added better status messages to the installer, directions for what to run if you
 
 Added even more, easily readable wording to the installer, as well as improving examples used.
   - commit label: [5fdcdf4](https://github.com/SketchedDoughnut/SDA/commit/5fdcdf4ea6b261149753f5d2c802859b78d932a2)
+
+# 6/28/24
+**v1.0.2, v1.0.2-bugfix.0**
+
+v1.0.2 was a new release of the installer, with some minor improvements to systems. <br>
+v1.0.2-bugfix.0 fixed an issue with the previous release where the directory "universe/" was not properly created.
