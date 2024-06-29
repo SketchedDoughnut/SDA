@@ -29,4 +29,4 @@ v1.0.2-bugfix.0 fixed an issue with the previous release where the directory "un
 **v1.0.3**
 
 The installer can now handle spaces, as well as get permissions to install inside of Program Files!
-- commit label: [tbd]()
+- commit label: [28ee3eb](https://github.com/SketchedDoughnut/SDA/commit/28ee3eb7f9a2b69b41f880196c0d8a97e270e620)
