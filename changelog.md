@@ -23,3 +23,4 @@ Added even more, easily readable wording to the installer, as well as improving 
 
 v1.0.2 was a new release of the installer, with some minor improvements to systems. <br>
 v1.0.2-bugfix.0 fixed an issue with the previous release where the directory "universe/" was not properly created.
+- commit label: [d6cfc50](https://github.com/SketchedDoughnut/SDA/commit/d6cfc5048dde67a63ec98ef8d16b89271eb4bcc0)
